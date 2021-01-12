@@ -1,0 +1,13 @@
+<div class="form-container">
+    <h2>Sign Up</h2>
+    <div class="form">
+        <input [(ngModel)]="first_name" type="text" id="signup-fname" placeholder="First Name">
+        <input [(ngModel)]="last_name" type="text" id="signup-lname" placeholder="Last Name">
+        <input [(ngModel)]="email" type="email" id="login-email" placeholder="Email">
+        <input [(ngModel)]="password" type="password" id="signup-password" placeholder="Password">
+        <input [(ngModel)]="password_confirmation" type="password" id="signup-password-confirmation" placeholder="Confirm Password">
+        <input [(ngModel)]="company_name" type="text" id="signup-company-name" placeholder="Company Name">
+        <input [(ngModel)]="business_id" type="number" id="signup-Business-id" placeholder="Business ID">
+        <input type="submit" value="Register" (click)="signUp()">
+    </div>
+</div>

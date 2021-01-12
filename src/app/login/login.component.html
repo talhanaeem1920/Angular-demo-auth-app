@@ -1,0 +1,9 @@
+<div class="form-container">
+    <h2>Login In</h2>
+    <div class="form">
+        <input [(ngModel)]="email" type="email" id="login-email" placeholder="email">
+        <input [(ngModel)]="password" type="password" id="login-password" placeholder="password">
+        <input type="submit" value="Login" (click)="login()">
+    </div>
+    <a routerLink='/register' >Register</a>
+</div>

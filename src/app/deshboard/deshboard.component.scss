@@ -1,0 +1,17 @@
+.dashboard-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__heading {
+        margin-bottom: 5rem;
+    }
+    & button {
+        width: 10rem;
+        height: 2rem;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        background-color: blue;
+    }
+}
